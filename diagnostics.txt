@@ -1,0 +1,32 @@
+============================================
+ ATMEGA16 VOICE RECOGNITION DIAGNOSTICS 
+ Generated: 2026-05-13 01:44:30
+============================================
+
+Overall Accuracy: 97.50%
+
+Per-word accuracy:
+  SIX      ██████████  100%
+  NO       ██████████  100%
+  UP       ██████████  100%
+  SEVEN    ██████████  100%
+  START    ██████████  100%
+  YES      ██████████  100%
+  STOP     ██████████  100%
+  ZERO     ████████░░  80%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         SIX       0.83      1.00      0.91        10
+          NO       1.00      1.00      1.00        10
+          UP       1.00      1.00      1.00        10
+       SEVEN       1.00      1.00      1.00        10
+       START       1.00      1.00      1.00        10
+         YES       1.00      1.00      1.00        10
+        STOP       1.00      1.00      1.00        10
+        ZERO       1.00      0.80      0.89        10
+
+    accuracy                           0.97        80
+   macro avg       0.98      0.97      0.97        80
+weighted avg       0.98      0.97      0.97        80
